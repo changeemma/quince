@@ -1,7 +1,10 @@
 from abc import ABC, abstractmethod
 
-from .exceptions import DirectoryException, DIRECTORY_DUPLICATED_CONTACT_ERROR_MESSAGE, \
-    DIRECTORY_CONTACT_NOT_FOUND_ERROR_MESSAGE
+from .exceptions import (
+    DirectoryException,
+    DIRECTORY_DUPLICATED_CONTACT_ERROR_MESSAGE,
+    DIRECTORY_CONTACT_NOT_FOUND_ERROR_MESSAGE,
+)
 from ..models import Contact
 
 

@@ -5,4 +5,3 @@ from dataclasses import dataclass, field
 class Contact:
     name: str
     phone: str = field(compare=False)
-
